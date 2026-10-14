@@ -53,7 +53,7 @@ Applied 2026-10-14 (recommendation accepted):
 - 🌐 Published `learning-journey` (public).
 
 Pending:
-- [ ] Revoke the leaked credential → delete that repo (`gh auth refresh -s delete_repo`)
+- [x] Revoke the leaked credential → delete that repo (done 2026-10-14)
 - [ ] `cnpj-dbt-pipeline`: English README, Mermaid diagram, CI
 - [ ] Rewrite profile README
 - [ ] Pin repos (manual on GitHub — no API)
