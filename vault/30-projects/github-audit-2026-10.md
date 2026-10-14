@@ -13,7 +13,7 @@ Account: `lucasnardivieira` · 21 repos (20 public, 1 private) · currently pinn
 ## 🚨 Security
 | Repo | Issue | Action |
 |---|---|---|
-| automating_GSheets_tunts_rocks | **GCP service-account JSON with `private_key` committed publicly** (since 2024-01) | 1) **Revoke/delete the key** in GCP Console → IAM → Service accounts → Keys (only real fix; history and forks keep the file). 2) Delete the repo. |
+| (one old repo) | A committed cloud credential | Revoke the credential, then delete the repo. Lesson: never commit keys — use `.env` + secret managers + `detect-private-key` pre-commit hook. |
 | airflow-docker | `.env` committed (only `AIRFLOW_UID` + credential *path* — no secret) | Remove from repo, add `.env.example` |
 
 ## Classification
@@ -39,7 +39,6 @@ Account: `lucasnardivieira` · 21 repos (20 public, 1 private) · currently pinn
 | aws-bootcamp-cruddur-2023 | Make private | Bootcamp clone, 1 commit |
 | teste_kindra_LucasN | Leave private | Technical test; build artifacts — harmless while private |
 | lucasnardivieira (profile) | **Rewrite** | Reposition as Data + AI Engineer |
-| automating_GSheets_tunts_rocks | **Delete** (after revoking key) | Leaked credential |
 
 "Make private" keeps the code for you while removing noise from the public profile. "Archive" keeps it public but read-only.
 
