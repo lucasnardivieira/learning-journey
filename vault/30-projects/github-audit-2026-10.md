@@ -56,5 +56,5 @@ Pending:
 - [x] Revoke the leaked credential → delete that repo (done 2026-10-14)
 - [x] `cnpj-dbt-pipeline`: English README, Mermaid diagram, CI (done 2026-10-14; also uv, sqlfluff, synthetic fixtures for `dbt build` in CI, fixed dbt 1.7 deps: setuptools/distutils on py3.12, protobuf<5)
 - [x] Rewrite profile README (done 2026-10-14)
-- [ ] Pin repos (manual on GitHub — no API)
+- [x] Pin repos (done 2026-10-14: learning-journey, cnpj-dbt-pipeline, myMovie)
 - [x] `myMovie`: move 42 MB CSV out of git, real README (done 2026-10-14: history rewritten with git filter-repo + force-push, clone 14 MB → 248 KB; merged branches deleted; `scripts/prepare_dataset.py` rebuilds the CSV from Kaggle)

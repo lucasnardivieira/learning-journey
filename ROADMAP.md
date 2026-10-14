@@ -14,7 +14,7 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 - [x] GitHub Project board + milestones (Phases 0–5) — https://github.com/users/lucasnardivieira/projects/1
 - [x] Global `~/.claude/CLAUDE.md` + skills (`weekly-review`, `new-portfolio-project`, `study-explain`)
 - [x] GitHub audit: report → decisions → cleanup (see `vault/30-projects/github-audit-2026-10.md`)
-- [ ] Profile README + pinned repos
+- [x] Profile README + pinned repos
 - [ ] First weekly review
 
 ## Phase 1 — Modern data engineering (months 1–3) ⬜
