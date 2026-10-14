@@ -8,14 +8,14 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 
 ---
 
-## Phase 0 — Foundation & workflow (weeks 1–2) 🟨
+## Phase 0 — Foundation & workflow (weeks 1–2) ✅
 - [x] Install git, gh, Docker, uv, ruff, pre-commit, Obsidian
 - [x] `gh auth login`; push this repo to GitHub
 - [x] GitHub Project board + milestones (Phases 0–5) — https://github.com/users/lucasnardivieira/projects/1
 - [x] Global `~/.claude/CLAUDE.md` + skills (`weekly-review`, `new-portfolio-project`, `study-explain`)
 - [x] GitHub audit: report → decisions → cleanup (see `vault/30-projects/github-audit-2026-10.md`)
 - [x] Profile README + pinned repos
-- [ ] First weekly review
+- [x] First weekly review
 
 ## Phase 1 — Modern data engineering (months 1–3) ⬜
 **Topics:** Docker · Terraform basics · orchestration (Dagster/Airflow) · dbt · dimensional modeling · data quality · Spark/PySpark · BigQuery
@@ -57,7 +57,7 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 ## Log of planning parts
 | Part | Scope | Status |
 |---|---|---|
-| 1 | Overview + foundation | 🟨 |
+| 1 | Overview + foundation | ✅ |
 | 2 | Phase 1 week-by-week + Project 1 spec | ⬜ |
 | 3 | Phase 2 + Project 2 + AWS cert prep | ⬜ |
 | 4 | Phase 3 + Projects 3–4 | ⬜ |
