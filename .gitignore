@@ -2,3 +2,5 @@ vault/.obsidian/workspace*.json
 vault/.obsidian/cache
 vault/.trash/
 .DS_Store
+vault/.obsidian/plugins/*/*
+!vault/.obsidian/plugins/*/data.json

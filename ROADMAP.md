@@ -11,7 +11,7 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 ## Phase 0 — Foundation & workflow (weeks 1–2) 🟨
 - [x] Install git, gh, Docker, uv, ruff, pre-commit, Obsidian
 - [x] `gh auth login`; push this repo to GitHub
-- [ ] GitHub Project board + milestones (Phases 0–5)
+- [x] GitHub Project board + milestones (Phases 0–5) — https://github.com/users/lucasnardivieira/projects/1
 - [x] Global `~/.claude/CLAUDE.md` + skills (`weekly-review`, `new-portfolio-project`, `study-explain`)
 - [ ] GitHub audit: report → decisions → cleanup (cleanup done; see `vault/30-projects/github-audit-2026-10.md` for pending items)
 - [ ] Profile README + pinned repos
