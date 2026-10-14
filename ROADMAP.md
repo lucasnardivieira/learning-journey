@@ -13,7 +13,7 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 - [x] `gh auth login`; push this repo to GitHub
 - [x] GitHub Project board + milestones (Phases 0–5) — https://github.com/users/lucasnardivieira/projects/1
 - [x] Global `~/.claude/CLAUDE.md` + skills (`weekly-review`, `new-portfolio-project`, `study-explain`)
-- [ ] GitHub audit: report → decisions → cleanup (cleanup done; see `vault/30-projects/github-audit-2026-10.md` for pending items)
+- [x] GitHub audit: report → decisions → cleanup (see `vault/30-projects/github-audit-2026-10.md`)
 - [ ] Profile README + pinned repos
 - [ ] First weekly review
 
