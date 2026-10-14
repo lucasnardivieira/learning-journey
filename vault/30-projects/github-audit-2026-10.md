@@ -2,7 +2,7 @@
 type: decision
 project: github-portfolio
 date: 2026-10-14
-status: proposed
+status: accepted
 ---
 # GitHub audit — 2026-10
 
@@ -46,4 +46,15 @@ Account: `lucasnardivieira` · 21 repos (20 public, 1 private) · currently pinn
 1. learning-journey → 2. cnpj-dbt-pipeline → 3. br-open-data-platform (Project 1) → 4. myMovie (after cleanup) → 5–6. Projects 2–4 as they ship.
 
 ## Decisions
-_(filled after review)_
+Applied 2026-10-14 (recommendation accepted):
+- 🔒 Made private (12): the credential repo (pending deletion), ETL_project, scraper-ofertas, analise_dados_CEAPS, spell_checker, Trabalho-compiladores, trabalho-poo, projeto-AtmoAlert, fruitsDB, react-project, projeto-priorize-me, aws-bootcamp-cruddur-2023.
+- 📦 Archived (5): airflow-docker (cleaned first: logs/.pyc/.env removed, .gitignore + .env.example added), pipeline-api, industrial-visao-computacional, segment_anything_way, gazenet_gaze_estimation.
+- ✏️ Renamed `desafio_franq` → `cnpj-dbt-pipeline` (+ description, topics).
+- 🌐 Published `learning-journey` (public).
+
+Pending:
+- [ ] Revoke the leaked credential → delete that repo (`gh auth refresh -s delete_repo`)
+- [ ] `cnpj-dbt-pipeline`: English README, Mermaid diagram, CI
+- [ ] Rewrite profile README
+- [ ] Pin repos (manual on GitHub — no API)
+- [ ] `myMovie`: move 42 MB CSV out of git, real README

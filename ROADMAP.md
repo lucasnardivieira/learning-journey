@@ -9,11 +9,11 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 ---
 
 ## Phase 0 — Foundation & workflow (weeks 1–2) 🟨
-- [ ] Install git, gh, Docker, uv, ruff, pre-commit, Obsidian
-- [ ] `gh auth login`; push this repo to GitHub
+- [x] Install git, gh, Docker, uv, ruff, pre-commit, Obsidian
+- [x] `gh auth login`; push this repo to GitHub
 - [ ] GitHub Project board + milestones (Phases 0–5)
-- [ ] Global `~/.claude/CLAUDE.md` + skills (`weekly-review`, `new-portfolio-project`, `study-explain`)
-- [ ] GitHub audit: report → decisions → cleanup
+- [x] Global `~/.claude/CLAUDE.md` + skills (`weekly-review`, `new-portfolio-project`, `study-explain`)
+- [ ] GitHub audit: report → decisions → cleanup (cleanup done; see `vault/30-projects/github-audit-2026-10.md` for pending items)
 - [ ] Profile README + pinned repos
 - [ ] First weekly review
 
