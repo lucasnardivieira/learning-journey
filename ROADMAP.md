@@ -6,6 +6,8 @@
 
 Status legend: ⬜ not started · 🟨 in progress · ✅ done
 
+**Timeline & weekly tasks:** [GitHub Project — Roadmap view](https://github.com/users/lucasnardivieira/projects/1). Hierarchy: Phase epic → checkpoint (M*n*.*x*) → session-sized issues, each with `Start` / `Target` / `Kind`. Later phases get their checkpoints planned near the end of the previous phase.
+
 ---
 
 ## Phase 0 — Foundation & workflow (weeks 1–2) ✅
@@ -17,16 +19,27 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 - [x] Profile README + pinned repos
 - [x] First weekly review
 
-## Phase 1 — Modern data engineering (months 1–3) ⬜
-**Topics:** Docker · Terraform basics · orchestration (Dagster/Airflow) · dbt · dimensional modeling · data quality · Spark/PySpark · BigQuery
+## Phase 1 — Modern data engineering (2026-10-19 → 2027-01-31) 🟨
+**Topics:** Docker · Terraform basics · orchestration (Kestra in the course, Dagster in the project) · ingestion (dlt) · BigQuery · dbt · dimensional modeling · data quality · Spark/PySpark · streaming intro
+
+| Checkpoint | Dates | Done when |
+|---|---|---|
+| **M1.1 Cloud foundations** | 10-19 → 11-08 | Zoomcamp M1 homework · GCP account with budget alert · Project 1 repo with green CI · Terraform `apply`/`destroy` tested |
+| **M1.2 Orchestrated ingestion** | 11-09 → 11-29 | Zoomcamp M2 + dlt workshop · BCB + IBGE/SIDRA in GCS · Dagster schedule, idempotent, tested |
+| **M1.3 Warehouse modeled** | 11-30 → 12-20 | Zoomcamp M3–M4 · Kimball ch. 1–4 · BigQuery raw + dbt marts with `dbt build` green |
+| 🎄 Buffer | 12-21 → 01-03 | Catch-up or rest |
+| **M1.4 Batch, streaming & ship** | 01-04 → 01-31 | Zoomcamp M5 (skim), M6, M7 · Project 1 shipped (quality, CI, dashboard, README, costs, teardown) · Phase 1 retro |
+
 - [ ] DataTalks.Club DE Zoomcamp — Module 1: Docker, Postgres, Terraform, GCP
-- [ ] Module 2: Workflow orchestration
+- [ ] Module 2: Workflow orchestration (Kestra)
+- [ ] Workshop: Data ingestion (dlt)
 - [ ] Module 3: Data warehouse (BigQuery)
 - [ ] Module 4: Analytics engineering (dbt)
-- [ ] Module 5: Batch processing (Spark)
-- [ ] Module 6: Streaming (Kafka) — intro only, deepened in Phase 2
-- [ ] Book: *Fundamentals of Data Engineering* (Reis & Housley)
-- [ ] Book: *The Data Warehouse Toolkit* ch. 1–4 (Kimball)
+- [ ] Module 5: Data platforms (Bruin) — skim only
+- [ ] Module 6: Batch processing (Spark)
+- [ ] Module 7: Streaming (Kafka) — intro only, deepened in Phase 2
+- [ ] Book: *Fundamentals of Data Engineering* (Reis & Housley) — extra reading, ~30 min/week
+- [ ] Book: *The Data Warehouse Toolkit* ch. 1–4 (Kimball) — alongside Module 4
 - [ ] **Project 1 — `br-open-data-platform`**: BCB SGS + IBGE/SIDRA → GCS → BigQuery · dbt · Dagster · Terraform · tests · CI · dashboard
 
 ## Phase 2 — Lakehouse, streaming & AWS (months 4–5) ⬜
@@ -58,7 +71,7 @@ Status legend: ⬜ not started · 🟨 in progress · ✅ done
 | Part | Scope | Status |
 |---|---|---|
 | 1 | Overview + foundation | ✅ |
-| 2 | Phase 1 week-by-week + Project 1 spec | ⬜ |
+| 2 | Phase 1 checkpoints + weekly tasks (Project 1 spec → issue #25) | ✅ |
 | 3 | Phase 2 + Project 2 + AWS cert prep | ⬜ |
 | 4 | Phase 3 + Projects 3–4 | ⬜ |
 | 5 | Phase 4 + Project 5 | ⬜ |
